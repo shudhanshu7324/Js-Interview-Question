@@ -5,3 +5,5 @@ array Destructuring is a convenient way to extract values from arrays and assign
 
 
 // Object Destructuring
+
+object Destructuring is a powerful feature in javascript which allows us to extract properties from objects and assign them to variable a concise and readable manner.
