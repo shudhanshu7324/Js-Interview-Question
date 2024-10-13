@@ -1,0 +1,7 @@
+
+// Array Destructuring
+
+array Destructuring is a convenient way to extract values from arrays and assign them to a variable in single, concise syntax.
+
+
+// Object Destructuring
