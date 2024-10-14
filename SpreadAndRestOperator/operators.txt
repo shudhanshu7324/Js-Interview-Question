@@ -1,0 +1,15 @@
+// Spread Operator
+
+spread operator is a versatile and powerful feature that allows to expand iterable elements into individual elements.
+
+
+// Rest Operator
+
+the rest operator is a powerful feature introduced in ES6 that allows you to represent an indefinite number of elements as an array
+
+
+
+Key Takeaway:
+
+Spread is for expanding elements.
+Rest is for collecting elements.
