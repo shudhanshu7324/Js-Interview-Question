@@ -1,0 +1,14 @@
+A closure in JavaScript is a function that has access to variables in its parent scope, even after the parent function has returned. Closures are created when a function is defined inside another function, and the inner function retains access to the variables in the outer function's scope 
+
+
+PURPOSE OF Closures
+In programming languages, closures are used to encapsulate data within functions, allowing for controlled access to that data. This concept is important for maintaining data integrity and preventing unintended modifications. 
+Here are some purposes and uses of closures: 
+Data privacy
+Closures can create private variables and methods, which can be useful for hiding data from the global scope. 
+Event handlers
+Closures can maintain state in an event without needing global variables. 
+Functional programming
+Closures can facilitate functional programming patterns, such as currying and partial applications. 
+Memorization
+Closures can be used to store the results of expensive or time-consuming calculations in a cache or lookup table. This can improve the performance of a function or algorithm. 
