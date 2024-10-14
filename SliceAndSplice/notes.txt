@@ -1,0 +1,2 @@
+## slice doesn't modifies the original array
+## splice modifies the original array
