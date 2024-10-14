@@ -1,0 +1,28 @@
+// Shallow Copy
+
+Shallow copy creates a new object and arrays that holds references to the elements of the original object or array. It means that the top-level structure is duplicated, but any nested objects or arrays are still referenced from the original.
+
+Key points about shallow copy:
+Structure: Only the top-level structure is copied.
+Nested objects/arrays: Changes to nested objects or arrays in the copy will also affect the original.
+Primitive values: Primitive values (like numbers, strings, booleans) are copied by value, so modifying them in the copy won't affect the original.
+
+Methods to create a shallow copy:
+Spread operator (...): Works for both objects and arrays.
+Object.assign(): Copies the enumerable own properties from one or more source objects to a target object.
+Array.from(): Creates a new, shallow-copied Array instance from an array-like or iterable object. 
+Array.prototype.slice(): Creates a shallow copy of a portion of an array.
+Object.create(): Creates a new object with the specified prototype object and properties. (Can be used for shallow copy by passing null as the prototype)
+
+
+
+// DEEP Copy
+ a deep copy creates a completely independent copy of an object, including all nested objects or arrays. This means that changes made to the copied object or its nested properties do not affect the original object, and vice versa
+
+ Methods for Deep Copying:
+JSON.parse(JSON.stringify()): This method works for simple objects but has limitations:
+It doesn't handle functions or circular references.
+It can be slow for large objects.
+structuredClone(): This modern method is the most efficient way to create a deep copy in JavaScript.
+It supports most built-in types and handles circular references.
+Libraries: Libraries like Lodash (cloneDeep) offer deep copy functionality.
