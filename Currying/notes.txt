@@ -1,0 +1,1 @@
+Currying is a functional programming technique that transforms a function with multiple arguments into a sequence of functions, each taking a single argument. In JavaScript, currying can enhance code modularity, reusability, and readability by allowing partial application of functions.
